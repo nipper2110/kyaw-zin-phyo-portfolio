@@ -15,6 +15,13 @@ export function Nav() {
               {n.label}
             </a>
           ))}
+          <a
+            href={profile.resume}
+            download="Kyaw-Zin-Phyo-Resume.pdf"
+            className="border-2 border-navy bg-navy px-4 py-1 text-sm font-bold text-paper transition-colors hover:border-moss hover:bg-moss"
+          >
+            Résumé ↓
+          </a>
         </nav>
         <button
           className="border border-navy px-3 py-1.5 text-sm font-bold text-navy md:hidden"
@@ -32,6 +39,9 @@ export function Nav() {
               {n.label}
             </a>
           ))}
+          <a href={profile.resume} download="Kyaw-Zin-Phyo-Resume.pdf" className="mt-4 block bg-navy py-3 text-center font-bold text-paper">
+            Download résumé (PDF)
+          </a>
         </nav>
       )}
     </header>

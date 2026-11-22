@@ -35,8 +35,8 @@ export function Contact() {
               <dd className="font-serif text-2xl md:text-3xl">{profile.location}</dd>
             </div>
           </dl>
-          <a href={profile.resume} download className="mt-10 inline-block border-2 border-paper px-6 py-3 font-bold transition-colors hover:bg-paper hover:text-navy">
-            Download résumé (PDF)
+          <a href={profile.resume} download="Kyaw-Zin-Phyo-Resume.pdf" className="mt-10 inline-block border-2 border-paper px-6 py-3 font-bold transition-colors hover:bg-paper hover:text-navy">
+            Download résumé <span className="text-sm font-normal opacity-70">PDF · 860 KB</span>
           </a>
         </Reveal>
 

@@ -26,8 +26,8 @@ export function Hero() {
             <a href="#experience" className="bg-navy px-6 py-3 font-bold text-paper transition-colors hover:bg-moss">
               See my experience
             </a>
-            <a href={profile.resume} download className="border-2 border-navy px-6 py-3 font-bold text-navy transition-colors hover:bg-navy hover:text-paper">
-              Download résumé
+            <a href={profile.resume} download="Kyaw-Zin-Phyo-Resume.pdf" className="border-2 border-navy px-6 py-3 font-bold text-navy transition-colors hover:bg-navy hover:text-paper">
+              Download résumé <span className="text-sm font-normal opacity-70">PDF · 860 KB</span>
             </a>
           </div>
         </div>
